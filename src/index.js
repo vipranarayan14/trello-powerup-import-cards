@@ -1,9 +1,16 @@
 const { TrelloPowerUp } = window;
 
+const onBoardButtonClick = (t, opts) => {
+  alert("Import Cards");
+};
+
 TrelloPowerUp.initialize({
   "board-buttons": () => {
-    console.log("Hello ".repeat(5));
-
-    return [];
+    return [
+      {
+        text: "Import Cards",
+        callback: onBoardButtonClick,
+      },
+    ];
   },
 });
