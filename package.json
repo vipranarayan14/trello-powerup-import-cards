@@ -1,0 +1,14 @@
+{
+  "name": "trello-powerup-import-cards",
+  "version": "0.1.0",
+  "description": "Trello Power-Up for importing cards",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.2.0"
+  }
+}
