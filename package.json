@@ -4,8 +4,9 @@
   "description": "Trello Power-Up for importing cards",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
-    "netlify": "netlify"
+    "build": "rm -rf dist && parcel build",
+    "netlify": "netlify",
+    "direct-deploy": "npm run build && netlify deploy --prod"
   },
   "author": "",
   "license": "MIT",
