@@ -4,11 +4,13 @@
   "description": "Trello Power-Up for importing cards",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build"
+    "build": "parcel build",
+    "netlify": "netlify"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "netlify-cli": "^8.9.6",
     "parcel": "^2.2.0"
   }
 }
